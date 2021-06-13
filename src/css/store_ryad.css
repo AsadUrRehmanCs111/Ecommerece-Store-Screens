@@ -1,0 +1,32 @@
+.ryad_store {
+  background: #fff;
+}
+
+.ryad_store .ryad_store_nav #accordion .card ul li {
+  list-style: none;
+  border: 2px solid #ece9e9;
+  color: #07090d;
+  margin: 3px 0px;
+  text-align: center;
+  padding: 10px;
+}
+.ryad_store_products_heading h3 {
+  text-align: center;
+  border: 2px solid #6fa8dc;
+  padding: 7px 0px;
+}
+.ryad_store .ryad_store_nav #accordion .card button p,
+.ryad_store .ryad_store_nav #accordion .card i {
+  text-decoration: none;
+  color: #07090d;
+}
+.ryad_store .ryad_store_nav #accordion .card ul li a {
+  text-decoration: none;
+  color: #07090d;
+}
+.text-sp {
+  color: #a2a1a4;
+}
+.product_description {
+  line-height: 0.6;
+}
