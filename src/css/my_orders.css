@@ -1,0 +1,83 @@
+.my_order_area .my_order_nav_form form,
+.my_order_table {
+  width: 80%;
+  margin: 0 auto;
+  /* box-shadow: 4px 4px 5px 0px rgba(207, 207, 207, 0.87); */
+  box-shadow: 0 0 10px rgba(207, 207, 207, 0.87);
+}
+.my_order_area h2 {
+  color: #6fa8dc;
+  margin-top: 20px;
+}
+.my_order_area .my_order_nav_form form button {
+  background: #6fa8dc;
+  color: #fff;
+  padding: 7px 60px;
+}
+.my_order_area .my_order_table button {
+  background: #6fa8dc;
+  color: #fff;
+  padding: 7px 20px;
+}
+.my_order_area hr {
+  width: 80%;
+  margin: 7 auto;
+  border: 1px solid #dddddd;
+}
+
+.my_order_area .my_order_nav_form .my_account {
+  border: 1px solid #9b9393;
+  width: 70%;
+  margin-bottom: 30px;
+}
+.my_order_area .my_order_nav_form .my_orders {
+  border: 1px solid #9b9393;
+  width: 70%;
+  margin-bottom: 30px;
+}
+.my_order_area .my_order_nav_form .my_messages {
+  border: 1px solid #9b9393;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.my_order_area .my_order_nav_form .my_orders.active {
+  background: #6fa8dc;
+  width: 70%;
+}
+
+.my_order_area .my_order_nav_form .my_account a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 10px 10px 0px;
+}
+.my_order_area .my_order_nav_form .my_orders a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 10px 10px 0px;
+}
+.my_order_area .my_order_nav_form .my_messages a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 10px 10px 0px;
+}
+.my_order_area .my_order_table img {
+  width: 60px;
+  height: 60px;
+}
+.my_order_area .my_order_table thead th {
+  padding: 10px !important;
+}
+.my_order_area .my_order_table tbody tr td {
+  padding: 10px !important;
+}
+@media screen and (max-width: 560px) {
+  .d-flex {
+    flex-direction: column;
+  }
+  .my_order_area .my_order_nav_form form,
+  .my_order_area .my_order_table .table {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(207, 207, 207, 0.87);
+  }
+}

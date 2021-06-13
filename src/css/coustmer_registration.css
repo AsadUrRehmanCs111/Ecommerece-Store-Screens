@@ -1,0 +1,19 @@
+.customer_form_area .customer_login_form form,
+.customer_form_area .customer_sign_up_from form {
+  width: 80%;
+  margin: 0 auto;
+  /* box-shadow: 4px 4px 5px 0px rgba(207, 207, 207, 0.87); */
+  box-shadow: 0 0 10px rgba(207, 207, 207, 0.87);
+}
+.customer_form_area .customer_login_form form button,
+.customer_form_area .customer_sign_up_from form button {
+  background: #6fa8dc;
+  color: #fff;
+  padding: 7px 60px;
+}
+.customer_form_area .customer_login_form form hr,
+.customer_form_area .customer_sign_up_from form hr {
+  width: 80%;
+  margin: 7 auto;
+  border: 1px solid #dddddd;
+}
