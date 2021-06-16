@@ -12,6 +12,7 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="./src/css/global.css">
     <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
     <link rel="stylesheet" href="./src/css/my_orders.css">
     <title>Ecommerce Store</title>
 </head>
@@ -40,87 +41,113 @@
 
         </div>
     </header>
-    <section class="my_order_area">
-        <h2 class="text-center">My Orders</h2>
-        <div class="row">
-            <div class="my_order_nav_form col-lg-4 col-md-4 mb-4">
-                <form class="p-3">
-                    <div class="my_account">
-                        <a href="#">My account</a>
-                    </div>
-                    <div class="my_orders active">
-                        <a href="#">My Orders</a>
-                    </div>
-                    <div class="my_messages">
-                        <a href="#">My Messages</a>
-                    </div>
-                </form>
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar-->
+        <div class="border-end bg-white" id="sidebar-wrapper">
+            <div class="sidebar-heading border-bottom bg-light">
             </div>
-            <div class="my_order_table col-lg-7 col-md-8 mb-4">
-                <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                            <th>Ordered</th>
-                            <th>Item</th>
-                            <th>Date</th>
-                            <th>Amount</th>
-                            <th>Status</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Shop Ryad N1234</td>
-                                <td class="d-flex flex-lg-row flex-md-column flex-sm-column">
-                                    <p>PULL ROUGHT ZARA</p>
-                                    <img src="./src/img/Capture.PNG" alt="">
-                                </td>
-                                <td>
-                                    12-6-2021
-                                </td>
-                                <td> 2000 Da</td>
-                                <td>Validated</td>
-                                <td>
-                                    <button class="btn">Cancle</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Shop Ryad N1234</td>
-                                <td class="d-flex flex-lg-row flex-md-column">
-                                    <p>PULL ROUGHT ZARA</p>
-                                    <img src="./src/img/Capture.PNG" alt="">
-                                </td>
-                                <td>
-                                    12-6-2021
-                                </td>
-                                <td> 2000 Da</td>
-                                <td>Validated</td>
-                                <td>
-                                    <button class="btn">Cancle</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Shop Ryad N1234</td>
-                                <td class="d-flex flex-lg-row flex-md-column">
-                                    <p>PULL ROUGHT ZARA</p>
-                                    <img src="./src/img/Capture.PNG" alt="">
-                                </td>
-                                <td>
-                                    12-6-2021
-                                </td>
-                                <td> 2000 Da</td>
-                                <td>Validated</td>
-                                <td>
-                                    <button class="btn">Cancle</button>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
+            <div class="list-group list-group-flush">
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./myAccount.html">My
+                    Account</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3 activeclass" href="#!">My
+                    Orders</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3 "
+                    href="./my_messages.html">My
+                    Mesaages</a>
             </div>
         </div>
+        <!-- Page content wrapper-->
+        <div id="page-content-wrapper">
+            <!-- Top navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <div class="container-fluid">
+                    <button class="btn btn-primary2" id="sidebarToggle">
+                        <i class="fa fa-home fa-2x" aria-hidden="true">
+                        </i></button>
+                    <div></div>
+                </div>
+            </nav>
+            <!-- Page content-->
+            <div class="container-fluid">
+                <div class="my_order_area">
+                    <div class="row">
+                        <div class="my_order_table col-lg-10 col-md-10 col-sm-12 mx-auto mb-4">
+                            <h2 class="text-center">My Orders</h2>
+                            <!--Table-->
+                            <div class="table-responsive">
+                                <table class="table table-hover table-fixed table-bordered fixed text-center">
+                                    <thead>
+                                        <th width="120px">Ordered</th>
+                                        <th width="180px">Item</th>
+                                        <th width="120px">Date</th>
+                                        <th width="120px">Amount</th>
+                                        <th width="120px">Status</th>
+                                        <th width="120px"></th>
+                                    </thead>
+                                    <!--Table body-->
+                                    <tbody>
+                                        <tr>
+                                            <td>Shop Ryad N1234</td>
+                                            <td class="d-flex justify-content-lg-between">
+                                                <p>PULL ROUGHT ZARA</p>
+                                                <img src="./src/img/Capture.PNG" alt="">
+                                            </td>
+                                            <td>
+                                                12-6-2021
+                                            </td>
+                                            <td> 2000 Da</td>
+                                            <td>Validated</td>
+                                            <td>
+                                                <a class="btn btn-primary1">Cancle</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop Ryad N1234</td>
+                                            <td class="d-flex justify-content-lg-between">
+                                                <p>PULL ROUGHT ZARA</p>
+                                                <img src="./src/img/Capture.PNG" alt="">
+                                            </td>
+                                            <td>
+                                                12-6-2021
+                                            </td>
+                                            <td> 2000 Da</td>
+                                            <td>Validated</td>
+                                            <td>
+                                                <a class="btn btn-primary1">Cancle</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop Ryad N1234</td>
+                                            <td class="d-flex justify-content-lg-between">
+                                                <p>PULL ROUGHT ZARA</p>
+                                                <img src="./src/img/Capture.PNG" alt="">
+                                            </td>
+                                            <td>
+                                                12-6-2021
+                                            </td>
+                                            <td> 2000 Da</td>
+                                            <td>Validated</td>
+                                            <td>
+                                                <a class="btn btn-primary1">Cancle</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <!--Table body-->
+
+                                </table>
+                            </div>
+
+                            <!--Table-->
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-    </section>
 
 
     <!-- Optional JavaScript -->
@@ -134,6 +161,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="./src/js/script.js"></script>
 </body>
 
 </html>

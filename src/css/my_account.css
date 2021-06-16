@@ -1,65 +1,26 @@
-.my_account_area .my_account_nav_form form {
-  width: 80%;
-  margin: 0 auto;
-  /* box-shadow: 4px 4px 5px 0px rgba(207, 207, 207, 0.87); */
-  box-shadow: 0 0 10px rgba(207, 207, 207, 0.87);
-}
 .my_account_area .my_account_edit_form form {
-  width: 80%;
   margin: 0 auto;
 }
 .my_account_area h2 {
   color: #6fa8dc;
 }
-.my_account_area .my_account_nav_form {
-  margin-top: 70px;
-}
-.my_account_area .my_account_nav_form form button,
+
 .my_account_area .my_account_edit_form form button {
   background: #6fa8dc;
   color: #fff;
   padding: 7px 60px;
 }
-.my_account_area .my_account_nav_form form hr,
 .my_account_area .my_account_edit_form form hr {
   width: 80%;
   margin: 7 auto;
   border: 1px solid #dddddd;
 }
 
-.my_account_area .my_account_nav_form .my_account {
-  border: 1px solid #9b9393;
-  width: 50%;
-  margin-bottom: 30px;
+a.activeclass {
+  background-color: #12cff0 !important;
+  color: #fff;
 }
-.my_account_area .my_account_nav_form .my_orders {
-  border: 1px solid #9b9393;
-  width: 50%;
-  margin-bottom: 30px;
-}
-.my_account_area .my_account_nav_form .my_messages {
-  border: 1px solid #9b9393;
-  width: 50%;
-  margin-bottom: 30px;
-}
-
-.my_account_area .my_account_nav_form .my_account.active {
-  background: #6fa8dc;
-  width: 50%;
-}
-
-.my_account_area .my_account_nav_form .my_account a {
-  color: #000;
-  text-decoration: none;
-  padding: 10px 10px 10px 0px;
-}
-.my_account_area .my_account_nav_form .my_orders a {
-  color: #000;
-  text-decoration: none;
-  padding: 10px 10px 10px 0px;
-}
-.my_account_area .my_account_nav_form .my_messages a {
-  color: #000;
-  text-decoration: none;
-  padding: 10px 10px 10px 0px;
+.btn-primary2 {
+  background-color: #6fa8dc;
+  color: #fff;
 }
