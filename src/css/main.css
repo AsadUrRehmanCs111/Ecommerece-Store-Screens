@@ -10,6 +10,9 @@ body {
   margin: 7 auto;
   border: 2px solid #2b2b2b;
 }
+.shops {
+  background: #ccc;
+}
 .shops .shop-cards .card .card-text {
   background: #6fa8dc;
   color: #fff;
@@ -38,4 +41,249 @@ body {
     font-weight: bold;
     font-size: 0.9rem;
   }
+}
+
+/* Slider */
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+  /* background: #000; */
+}
+
+.carousel-caption {
+  padding-bottom: 80px;
+}
+
+h2 {
+  font-size: 60px;
+}
+p {
+  padding: 10px;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  opacity: 0.6;
+}
+
+/**
+ * Button
+ */
+.btn-transparent {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-transparent:hover {
+  background-color: #fff;
+}
+
+.btn-rounded {
+  border-radius: 70px;
+}
+
+.btn-large {
+  padding: 11px 45px;
+  font-size: 18px;
+}
+
+/**
+ * Change animation duration
+ */
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+#carousel .carousel-item.boat {
+  background-image: url("../img/slider-1.jpg");
+}
+
+#carousel .carousel-item.sea {
+  background-image: url("../img/slider-2.jpg");
+}
+
+#carousel .carousel-item.river {
+  background-image: url("../img/slider-3.jpg");
+}
+
+#carousel .carousel-item {
+  height: 100vh;
+  width: 100%;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+#carousel .carousel-inner .carousel-item {
+  transition: -webkit-transform 1s linear;
+  transition: transform 1s linear;
+  transition: transform 1s linear, -webkit-transform 1s linear;
+}
+
+#carousel .carousel-item .caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  color: white;
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+
+#carousel .caption h2 {
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+
+#carousel .caption p {
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+
+#carousel .caption a {
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+
+/* Button */
+.delicious-btn {
+  display: inline-block;
+  min-width: 160px;
+  height: 60px;
+  color: #ffffff;
+  border: none;
+  border-left: 3px solid #6fa8dc;
+  border-radius: 0;
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 58px;
+  font-weight: 600;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-transform: capitalize;
+  background-color: #6fa8dc;
+}
+
+.delicious-btn.active,
+.delicious-btn:hover,
+.delicious-btn:focus {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  background-color: #12cff0;
+  border-color: #12cff0;
+}
+
+/* .card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: fill;
+} */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: auto;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+/* @media screen and (max-width: 990px) {
+  .card-img-top {
+    min-height: 20vw;
+  }
+}
+*/
+@media screen and (min-width: 1020px) {
+  .card {
+    width: 90%;
+    width: 600px;
+    margin: auto;
+  }
+  .card {
+    width: 100%;
+    width: 280px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card {
+    width: 80%;
+    width: 400px;
+    margin: auto;
+  }
+  .card {
+    width: 100%;
+    width: 280px;
+    margin: auto;
+  }
+}
+
+.card {
+  position: relative;
+}
+
+.card .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 40px;
+  background-color: #6fa8dc;
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 1;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
 }
