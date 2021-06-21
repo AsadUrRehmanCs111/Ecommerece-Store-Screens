@@ -19,25 +19,39 @@
 <body>
     <header class="header sticky">
         <div class="container">
-            <div class="header_wrap row">
-                <div class="header_logo col-lg-3 col-md-2">
-                    <img src="./src/img/Capture.PNG" alt="logo">
-                </div>
-                <div class="form-group has-search col-lg-5 col-md-4">
-                    <span class="fa fa-search form-control-feedback"></span>
-                    <input type="text" class="form-control" placeholder="Search, Category, City ..">
-                </div>
-                <div class="header_right col-lg-4 col-md-6 d-flex flex-column justify-content-end ">
-                    <div>
-                        <button class="btn col-lg-6 col-md-5 mr-2 mb-1">Client Access </button>
-                        <button class="btn col-lg-5 col-md-5 mb-1">Pro Access </button>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"> <img src="./src/img/Capture.PNG" alt="logo" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="has-search col-lg-6 col-md-8 col-sm-12">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input type="text" class="form-control" placeholder="Search, Category, City ..">
                     </div>
-                    <div class="icon text-center mt-1">
+                    <div class="header_right col-lg-6  col-sm-12 d-flex justify-content-lg-end">
+                        <button class="btn btn-sm mr-2">Client Access </button>
+                        <button class="btn btn-sm">Pro Access </button>
                         <i class="fas fa-cart-plus fa-2x"></i>
                     </div>
                 </div>
-            </div>
+            </nav>
 
+            <ul class="nav mt-2 justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">All</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ready To Wear</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">House</a>
+                </li>
+            </ul>
+            <hr>
         </div>
     </header>
     <!-- Hero Slider -->
@@ -51,38 +65,16 @@
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active boat">
                     <div class="container h-100 d-none d-md-block">
-                        <div class="row align-items-center h-100">
-                            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                                <div class="caption animated fadeIn">
-                                    <h2 class="animated fadeInLeft">Collection of Men Wear</h2>
-                                    <a class="animated fadeInUp btn delicious-btn" href="#">Shop Now</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="carousel-item sea">
                     <div class="container h-100 d-none d-md-block">
-                        <div class="row align-items-center h-100">
-                            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                                <div class="caption animated fadeIn">
-                                    <h2 class="animated fadeInLeft">Collection of Women Wear</h2>
-                                    <a class="animated fadeInUp btn delicious-btn" href="#">Shop Now</a>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
                 <div class="carousel-item river">
                     <div class="container h-100 d-none d-md-block">
-                        <div class="row align-items-center h-100">
-                            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                                <div class="caption animated fadeIn">
-                                    <h2 class="animated fadeInLeft">Men & Women</h2>
-                                    <a class="animated fadeInUp btn delicious-btn" href="#">Shop Now</a>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -96,31 +88,6 @@
             </a>
         </div>
     </section>
-    <div class="category pt-5" id="category">
-        <div class="container">
-            <div class="d-flex justify-content-between">
-                <div class="all">
-                    <a href="#">
-                        <h2 class="text-center">All</h2>
-                    </a>
-                </div>
-                <div class="ready-to-wear">
-                    <a href="#">
-                        <h2>Ready To Wear</h2>
-                    </a>
-
-                </div>
-                <div class="house">
-                    <a href="#">
-                        <h2>House</h2>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <hr>
-    </div>
 
     <section class="shops pt-5">
         <div class="container">
@@ -159,9 +126,37 @@
                     </div>
                 </div>
             </div>
-
     </section>
 
+
+    <div class="card has-bg-img"
+        style="background-image: url(https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ)">
+        <span class="card__title overlay card-1">
+            Store Ryad<br />
+            Men - Women - Child
+        </span>
+    </div>
+    <div class="card has-bg-img"
+        style="background-image: url(https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ)">
+        <span class="card__title overlay card-2">
+            Store Amir<br />
+            Women
+        </span>
+    </div>
+    <div class="card has-bg-img"
+        style="background-image: url(https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ)">
+        <span class="card__title overlay card-3">
+            Store ARC<br />
+            House
+        </span>
+    </div>
+    <div class="card has-bg-img"
+        style="background-image: url(https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ)">
+        <span class="card__title overlay card-4">
+            Store Amir<br />
+            Men
+        </span>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
