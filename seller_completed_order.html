@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/my_messages.css">
+    <title>Ecommerce Store</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"> <img src="./src/img/Capture.PNG" alt="logo" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="has-search col-lg-6 col-md-8 col-sm-12">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input type="text" class="form-control" placeholder="Search, Category, City ..">
+                    </div>
+                    <div class="col-lg-2 justify-content-center">
+                        <a class="navbar-brand1" href="#"> <img src="./src/img/Capture.PNG" alt="logo"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="header_right col-lg-4  col-sm-12 d-flex justify-content-lg-end">
+                        <button class="btn btn-sm mr-2">Pro Access </button>
+                        <button class="btn btn-sm"> Logout </button>
+                        <i class="fas fa-cart-plus fa-2x"></i>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <div class="d-flex toggled" id="wrapper">
+        <!-- Sidebar-->
+        <div class="border-end bg-white" id="sidebar-wrapper">
+            <div class="sidebar-heading border-bottom bg-light">
+            </div>
+            <div class="list-group list-group-flush">
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">My
+                    Account</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3 activeclass" href="#">Orders
+                    received</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#">Completed
+                    Orders</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#">Add Item</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#">My Articles</a>
+                <a class="list-group-item list-group-item-action list-group-item-light  p-3" href="#">
+                    My Mesaages
+                </a>
+
+            </div>
+        </div>
+        <!-- Page content wrapper-->
+        <div id="page-content-wrapper">
+            <!-- Top navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <div class="container-fluid">
+                    <button class="btn btn-primary2" id="sidebarToggle">
+                        <i class="fa fa-home fa-2x" aria-hidden="true">
+                        </i></button>
+                    <div></div>
+                </div>
+            </nav>
+            <!-- Page content-->
+            <div class="container-fluid">
+                <div class="my_messages_area">
+                    <h2 class="text-center">Completed Order</h2>
+                    <div class="row">
+                        <div class="my_messages_table col-lg-10 col-md-10 col-sm-12 mx-auto mb-4">
+                            <!--Table-->
+                            <div class="table-responsive">
+                                <table class="table table-hover table-fixed fixed table-bordered text-center">
+                                    <!--Table body-->
+                                    <thead>
+                                        <th width="120px">Orders</th>
+                                        <th width="120px">Date</th>
+                                        <th width="120px">Amount</th>
+                                        <th width="120px">Status</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                Order-1
+                                            </td>
+                                            <td>22-06-2021</td>
+                                            <td>2000 Da</td>
+                                            <td>Deliver</th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Order-2
+                                            </td>
+                                            <td>22-06-2021</td>
+                                            <td>2000 Da</td>
+                                            <td>Deliver</th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Order-3
+                                            </td>
+                                            <td>22-06-2021</td>
+                                            <td>2000 Da</td>
+                                            <td>Deliver</th>
+                                        </tr>
+                                    </tbody>
+                                    <!--Table body-->
+
+                                </table>
+                            </div>
+
+                            <!--Table-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="./src/js/script.js"></script>
+</body>
+
+</html>
