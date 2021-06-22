@@ -1,0 +1,167 @@
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/my_account.css">
+    <title>Ecommerce Store</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"> <img src="./src/img/Capture.PNG" alt="logo" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="has-search col-lg-6 col-md-8 col-sm-12">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input type="text" class="form-control" placeholder="Search, Category, City ..">
+                    </div>
+                    <div class="col-lg-2 justify-content-center">
+                        <a class="navbar-brand1" href="#"> <img src="./src/img/Capture.PNG" alt="logo"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="header_right col-lg-4  col-sm-12 d-flex justify-content-lg-end">
+                        <button class="btn btn-sm mr-2">Pro Access </button>
+                        <button class="btn btn-sm">Logout</button>
+                        <i class="fas fa-cart-plus fa-2x"></i>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar-->
+        <div class="border-end bg-white" id="sidebar-wrapper">
+            <div class="sidebar-heading border-bottom bg-light">
+            </div>
+            <div class="list-group list-group-flush">
+                <a class="list-group-item list-group-item-action list-group-item-light p-3 " href="#!">My
+                    Account</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#">Orders received</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#">Completed
+                    Orders</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3 activeclass" href="#">Add
+                    Item</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#">My Articles</a>
+                <a class="list-group-item list-group-item-action list-group-item-light  p-3" href="#">
+                    My Mesaages
+                </a>
+
+            </div>
+        </div>
+        <!-- Page content wrapper-->
+        <div id="page-content-wrapper">
+            <!-- Top navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <div class="container-fluid">
+                    <button class="btn btn-primary2" id="sidebarToggle">
+                        <i class="fa fa-home fa-2x" aria-hidden="true">
+                        </i></button>
+                    <div></div>
+                </div>
+            </nav>
+            <!-- Page content-->
+            <div class="container-fluid">
+                <section class="my_account_area">
+                    <h2 class="text-center">Add Item</h2>
+                    <div class="my_account_edit_form">
+                        <form class="p-3 mt-2 row">
+                            <div class="my_account_edit_form col-lg-4  col-md-4 col-sm-12 mx-auto mb-4">
+                                <div>
+                                    image-area
+                                </div>
+                            </div>
+                            <div class="form col-lg-8  col-md-8 col-sm-12 mx-auto mb-4">
+                                <div class="form-group">
+                                    <label>Product Title</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Category<span class="text-danger">*</span> </label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Section <span class="text-danger">*</span> </label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Brand<span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Size <span class="text-danger">*</span></label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option disabled selected>Select Size</option>
+                                        <option value="1">SM</option>
+                                        <option value="2">MD</option>
+                                        <option value="3">L</option>
+                                        <option value="4">XL</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Selling Price <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Indicated Price <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Stock <span class="text-danger">*</span></label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option disabled selected>Select Stock</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <label>Description</label><br>
+                                <textarea cols="120" rows="6" style="max-width:100%;"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary2">Save Article</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
