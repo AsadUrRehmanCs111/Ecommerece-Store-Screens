@@ -1,4 +1,4 @@
-.product-body {
+/* .product-body {
   float: left;
   width: 100%;
   background: lightgray;
@@ -32,10 +32,8 @@ figcaption ul li img {
   width: 100%;
 }
 figcaption ul li {
-  float: left;
-  width: 33.33%;
   list-style: none;
-  padding: 0px 15px;
+
 }
 
 .product-discription {
@@ -61,31 +59,38 @@ figcaption ul li {
   margin-left: 5px;
 }
 .product-discription .data a {
-  background: lightblue;
+  background: #6fa8dc;
   color: #ffff;
   padding: 10px 15px;
-  float: left;
   cursor: pointer;
-  margin-left: 10px;
+  margin-top: 10px;
 }
-.product-discription .data .quantity {
-  float: left;
-  width: 100%;
-}
+
 .product-discription .data .quantity button {
-  float: left;
   border: none;
   background: lightgray;
   padding: 11px 16px;
 }
 .product-discription .data .quantity span {
-  float: left;
   border: none;
   background: #ececec;
   padding: 10px 16px;
 }
+
+*/
+.product-body .title {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+.product-body del {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+figcaption img {
+  width: 80px;
+  height: 80px;
+}
 .product-detail {
-  float: left;
   width: 100%;
 }
 
@@ -93,7 +98,6 @@ figcaption ul li {
   background: white;
   padding: 10px 15px;
   border: none;
-  float: left;
   border: 1px solid #ececec;
 }
 .product-detail ul li a {
