@@ -1,41 +1,5 @@
-.my_order_area .my_order_table table {
-  box-shadow: 0 0 10px rgba(207, 207, 207, 0.87);
-}
-.my_order_area h2 {
-  color: #6fa8dc;
-  margin-top: 20px;
-}
-.order_area .my_order_table .my-order-canlce-btn .btn-primary1 {
-  background: #6fa8dc !important;
-  color: #fff !important;
-  padding: 7px 20px;
-}
-
-.my_order_area .my_order_table img {
-  width: 60px;
-  height: 60px;
-}
-
 @media screen and (max-width: 560px) {
   td .d-flex {
     flex-direction: column;
   }
-}
-a.activeclass {
-  background-color: #6fa8dc !important;
-  color: #fff;
-}
-table.fixed {
-  table-layout: fixed;
-}
-table.fixed td {
-  overflow: hidden;
-}
-td a.btn-primary1 {
-  background: rgb(189, 21, 21);
-  color: #fff !important;
-}
-.btn-primary2 {
-  background-color: #6fa8dc;
-  color: #fff;
 }
