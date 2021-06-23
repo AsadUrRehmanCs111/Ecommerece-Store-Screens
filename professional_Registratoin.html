@@ -19,24 +19,26 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="header_wrap row">
-                <div class="form-group has-search col-lg-5 col-md-4">
-                    <span class="fa fa-search form-control-feedback"></span>
-                    <input type="text" class="form-control" placeholder="Search, Category, City ..">
-                </div>
-                <div class="header_logo col-lg-3 col-md-2 text-center">
-                    <img src="./src/img/Capture.PNG" alt="logo">
-                </div>
-                <div class="header_right col-lg-4 col-md-6 d-flex flex-column justify-content-end ">
-                    <div>
-                        <button class="btn col-lg-6 col-md-5 mr-2 mb-1">Client Access </button>
-                        <button class="btn col-lg-5 col-md-5 mb-1">Pro Access </button>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"> <img src="./src/img/Capture.PNG" alt="logo" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="has-search col-lg-6 col-md-8 col-sm-12">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input type="text" class="form-control" placeholder="Search, Category, City ..">
                     </div>
-                    <div class="icon text-center mt-1">
+                    <div class="header_right col-lg-4  col-sm-12 d-flex justify-content-lg-end">
+                        <button class="btn btn-sm mr-2">Client Access </button>
+                        <button class="btn btn-sm">Logout</button>
                         <i class="fas fa-cart-plus fa-2x"></i>
                     </div>
                 </div>
-            </div>
+            </nav>
 
         </div>
     </header>
