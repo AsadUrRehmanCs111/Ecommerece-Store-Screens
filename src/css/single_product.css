@@ -83,7 +83,7 @@ figcaption ul li {
   border-bottom: 2px solid #000;
 }
 .product-body del {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 8px;
 }
 figcaption img {
@@ -117,4 +117,10 @@ figcaption img {
 }
 .product-detail .row {
   margin-left: 0px !important;
+}
+
+@media screen and (max-width: 460px) {
+  .product-detail ul li {
+    width: 100%;
+  }
 }
