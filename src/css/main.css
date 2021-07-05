@@ -313,3 +313,7 @@ p {
     width: 800px;
   }
 }
+
+.nav-top {
+  margin: 0px 16px;
+}

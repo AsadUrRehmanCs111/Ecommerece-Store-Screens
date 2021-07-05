@@ -33,3 +33,12 @@
 .product_description {
   line-height: 0.6;
 }
+.ryad_store_nav {
+  margin-top: 20%;
+}
+@media screen and (max-width: 575px) {
+  .ryad_store_nav {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
