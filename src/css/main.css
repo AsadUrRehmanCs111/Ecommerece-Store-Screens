@@ -317,3 +317,12 @@ p {
 .nav-top {
   margin: 0px 16px;
 }
+.nav-top ul li:hover {
+  background: #9fc5f8;
+}
+
+@media screen and (max-width: 434px) {
+  .nav-top .nav {
+    justify-content: flex-start !important;
+  }
+}
