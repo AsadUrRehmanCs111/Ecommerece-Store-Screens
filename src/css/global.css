@@ -56,7 +56,7 @@ mark {
 /* Corrects font family set oddly in Safari 5 and Chrome. */
 code,
 pre {
-  font-family: monospace, serif;
+  font-family: "Baloo 2", cursive;
   font-size: 1em;
 }
 /* Improves readability of pre-formatted text in all browsers. */
@@ -130,7 +130,7 @@ table {
 
 html {
   color: #444;
-  font-family: sans-serif;
+  font-family: "Baloo 2", cursive;
   font-size: 100%;
 }
 h1,
