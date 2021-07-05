@@ -317,6 +317,10 @@ p {
 .nav-top {
   margin: 0px 16px;
 }
+.nav-top ul li a {
+  color: #a0a0a0;
+}
+
 .nav-top ul li:hover {
   background: #9fc5f8;
 }
