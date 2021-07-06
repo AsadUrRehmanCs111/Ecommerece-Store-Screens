@@ -13,11 +13,12 @@
 
 .ryad_store_products_heading h3 {
   text-align: center;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
   color: #6fa8dc;
   padding: 7px 0px;
+  font-size: 32px;
 }
 .ryad_store .ryad_store_nav #accordion .card button p,
 .ryad_store .ryad_store_nav #accordion .card i {
